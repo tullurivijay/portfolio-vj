@@ -4,12 +4,28 @@
   .text-balance {
     text-wrap: balance;
   }
+
   .animate-marquee {
     animation: marquee 25s linear infinite;
   }
+
   @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Hide Next.js Dev Indicators */
+  [data-nextjs-toast],
+  [data-nextjs-scroll-position-indicator],
+  #nextjs-dev-tools-overlay {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
   }
 }
 

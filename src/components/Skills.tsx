@@ -12,9 +12,8 @@ const Skills = () => {
                 s.name.includes('Python') ||
                 s.name.includes('Databricks') ||
                 s.name.includes('AWS') ||
-                s.name.includes('Airflow') ||
-                s.name.includes('Snowflake') ||
-                s.name.includes('Terraform')
+                s.name.includes('Apache') ||
+                s.name.includes('Snowflake')
             )
         },
         {
@@ -31,7 +30,9 @@ const Skills = () => {
             name: "DevOps & Infrastructure",
             skills: skills.filter(s =>
                 s.name.includes('Docker') ||
-                s.name.includes('Kubernetes')
+                s.name.includes('Kubernetes') ||
+                s.name.includes('Terraform') ||
+                s.name.includes('Jenkins')
             )
         }
     ];

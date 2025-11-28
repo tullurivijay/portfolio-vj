@@ -51,11 +51,8 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-gray-500">
+                <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-center text-sm text-gray-500">
                     <p>© {new Date().getFullYear()} Vijay Tulluri. All rights reserved.</p>
-                    <p className="flex items-center gap-1 mt-2 md:mt-0">
-                        Made with <Heart size={14} className="text-red-500 fill-red-500" /> using Next.js
-                    </p>
                 </div>
             </div>
         </footer>

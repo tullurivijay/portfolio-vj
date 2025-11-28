@@ -12,25 +12,26 @@ export const personalInfo = {
 
 
 export const skills = [
-    { name: "Python & PySpark", icon: Code, level: "Expert" },
+    { name: "Python, Scala, SQL, Shell", icon: Code, level: "Expert" },
     { name: "Databricks & Delta Lake", icon: Database, level: "Expert" },
-    { name: "AWS & Cloud", icon: Cloud, level: "Expert" },
-    { name: "Apache Airflow", icon: Workflow, level: "Expert" },
+    { name: "AWS, Azure, GCP", icon: Cloud, level: "Expert" },
+    { name: "Apache (Hadoop, Spark, Airflow, Hive, Trino, Presto, Kafka, Flink)", icon: Workflow, level: "Expert" },
     { name: "LLMs & Transformers", icon: Terminal, level: "Expert" },
     { name: "RAG & LangChain", icon: Code, level: "Expert" },
-    { name: "Snowflake", icon: Database, level: "Advanced" },
+    { name: "Snowflake, BigQuery, Redshift", icon: Database, level: "Advanced" },
     { name: "BERT & NLP", icon: Terminal, level: "Advanced" },
     { name: "Machine Learning & MLOps", icon: Terminal, level: "Advanced" },
     { name: "Weights & Biases", icon: GitBranch, level: "Advanced" },
     { name: "Docker & Kubernetes", icon: Server, level: "Advanced" },
-    { name: "Terraform & IaC", icon: GitBranch, level: "Advanced" },
+    { name: "Terraform", icon: GitBranch, level: "Advanced" },
+    { name: "Jenkins, GitHub Actions, Sonar", icon: GitBranch, level: "Advanced" },
 ];
 
 
 export const experience = [
     {
         id: 1,
-        role: "Sr. Software Engineer – Data Engineering & ML",
+        role: "Sr. Software Engineer – Data & AI",
         company: "Nike, Sustainability Foundation Analytics",
         period: "Aug 2023 – Aug 2024",
         description: "Developed Agentic AI-powered sustainability assistant using LangChain with RAG. Built scalable ingestion pipelines from 40+ sources. Led Snowflake to Databricks migration using medallion architecture.",
@@ -46,7 +47,7 @@ export const experience = [
     },
     {
         id: 3,
-        role: "Senior Software Engineer & ML",
+        role: "Senior Software Engineer - ML",
         company: "Vanguard, Advice Engagement Labs",
         period: "Dec 2021 – Apr 2022",
         description: "Engineered highly scalable ETL/ELT pipelines with Airflow and Snowflake. Integrated ML recommendation outputs with Microsoft Dynamics 365 using RESTful APIs.",
@@ -54,7 +55,7 @@ export const experience = [
     },
     {
         id: 4,
-        role: "Senior Data Engineer",
+        role: "Senior Software Engineer - Data & AI",
         company: "Capital One, Fraud & Risk Mitigation",
         period: "Sep 2019 – Dec 2021",
         description: "Orchestrated data pipelines into OpenML-based fraud risk engine. Integrated DVC with S3 for dataset versioning. Built complex DAGs in Apache Airflow.",
