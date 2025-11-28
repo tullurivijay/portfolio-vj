@@ -122,24 +122,6 @@ const Skills = () => {
                         </div>
                     </motion.div>
                 ))}
-
-                {/* Tech Stack Summary */}
-                <motion.div
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: 0.6 }}
-                    className="mt-16 p-8 bg-gradient-to-br from-purple-900/20 to-pink-900/20 border border-purple-500/30 rounded-2xl text-center"
-                >
-                    <h3 className="text-xl font-bold text-white mb-3">
-                        Full-Stack Data & AI Engineer
-                    </h3>
-                    <p className="text-gray-300 max-w-3xl mx-auto">
-                        Proficient across the entire data stack - from ingestion with Kafka to transformation with Spark,
-                        storage in Delta Lake, and powering insights with LLMs and RAG systems.
-                        Experienced in deploying production-grade AI at scale across cloud platforms.
-                    </p>
-                </motion.div>
             </div>
         </section>
     );

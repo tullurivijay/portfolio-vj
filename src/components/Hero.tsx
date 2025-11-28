@@ -30,18 +30,12 @@ const Hero = () => {
                         {personalInfo.description}
                     </p>
 
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <div className="flex items-center justify-center">
                         <a
                             href="#projects"
                             className="px-8 py-3 bg-white text-black rounded-full font-semibold hover:bg-gray-200 transition-colors flex items-center gap-2"
                         >
                             View Work <ArrowRight size={20} />
-                        </a>
-                        <a
-                            href="#contact"
-                            className="px-8 py-3 border border-white/20 text-white rounded-full font-semibold hover:bg-white/10 transition-colors"
-                        >
-                            Contact Me
                         </a>
                     </div>
                 </motion.div>

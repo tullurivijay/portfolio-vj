@@ -1,0 +1,10 @@
+# Architecture Images Folder
+
+Place your exported Eraser.io architecture diagrams here.
+
+Recommended naming convention:
+- agentic-ai-architecture.png
+- fae-metrics-architecture.png
+- airflow-infrastructure-architecture.png
+- fraud-detection-architecture.png
+- medallion-architecture.png

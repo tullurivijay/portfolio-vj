@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import { projects } from '@/data/mockData';
-import { Github, ExternalLink } from 'lucide-react';
 
 const Projects = () => {
     return (
@@ -15,7 +14,7 @@ const Projects = () => {
                     transition={{ duration: 0.5 }}
                     className="text-center mb-16"
                 >
-                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Featured Projects</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Projects Delivered</h2>
                     <div className="w-20 h-1 bg-purple-600 mx-auto rounded-full" />
                 </motion.div>
 
@@ -37,7 +36,7 @@ const Projects = () => {
                                     {project.description}
                                 </p>
 
-                                <div className="flex flex-wrap gap-2 mb-6">
+                                <div className="flex flex-wrap gap-2">
                                     {project.tags.map((tag) => (
                                         <span
                                             key={tag}
@@ -46,27 +45,6 @@ const Projects = () => {
                                             {tag}
                                         </span>
                                     ))}
-                                </div>
-
-                                <div className="flex items-center gap-4">
-                                    <a
-                                        href={project.github}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-                                    >
-                                        <Github size={18} />
-                                        <span>Code</span>
-                                    </a>
-                                    <a
-                                        href={project.link}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
-                                    >
-                                        <ExternalLink size={18} />
-                                        <span>Demo</span>
-                                    </a>
                                 </div>
                             </div>
                         </motion.div>
