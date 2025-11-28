@@ -44,7 +44,12 @@ const Experience = () => {
                                         <span className="text-sm font-semibold">{job.period}</span>
                                     </div>
                                     <h3 className="text-xl font-bold text-white mb-1">{job.role}</h3>
-                                    <h4 className="text-lg text-gray-400 mb-4">{job.company}</h4>
+                                    <h4 className="text-lg text-gray-400 mb-3">{job.company}</h4>
+                                    {job.businessValue && (
+                                        <div className="inline-block px-3 py-1 bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-500/30 rounded-full mb-4">
+                                            <span className="text-sm font-semibold text-green-400">💰 Business Impact: {job.businessValue}</span>
+                                        </div>
+                                    )}
                                     <p className="text-gray-300 leading-relaxed">{job.description}</p>
                                 </div>
                             </div>

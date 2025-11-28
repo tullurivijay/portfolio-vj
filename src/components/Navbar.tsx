@@ -18,13 +18,13 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: 'Home', href: '#home' },
+        { name: 'About', href: '#home' },
         { name: 'Skills', href: '#skills' },
         { name: 'Experience', href: '#experience' },
         { name: 'Projects', href: '#projects' },
         { name: 'Architecture', href: '#architecture' },
         { name: 'Blog', href: '#blog' },
-        { name: 'Contact', href: '#contact' },
+        { name: 'Consult', href: '#contact' },
     ];
 
     return (
