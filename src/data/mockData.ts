@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, Code, Database, Globe, Server, Terminal, Cloud,
 
 export const personalInfo = {
     name: "Vijay Tulluri",
-    title: "Senior Software Engineer | Technical Leader - Data & AI",
+    title: "Principal Software Engineer | Data & AI Leader",
     description: "IT Professional with 9+ years of experience in Data Engineering, Software Development, and Machine Learning. Expert in building scalable data pipelines, ML systems, and Agentic AI solutions across sustainability, finance, retail, and ad-tech domains.",
     email: "Tulluri.Vijay@gmail.com",
     linkedin: "https://www.linkedin.com/in/vijaytulluri/",
@@ -31,6 +31,14 @@ export const skills = [
 export const experience = [
     {
         id: 1,
+        role: "Principal Data and AI Engineer",
+        company: "Fidelity Investments, FAE Metrics",
+        period: "Jul 2025 – Present",
+        description: "Built event-driven data pipelines with Python, AWS Lambda, EventBridge, S3, and Snowflake ingesting GitHub, SonarQube, Jenkins, Splunk, and Datadog telemetry from 400+ applications across a 43K+ employee organization. Designed Snowflake ETL/ELT frameworks using Snowpark with incremental ingestion, idempotent transformations, and automated data quality checks. Led migration of Snowflake pipelines to Databricks with Databricks Asset Bundles and CI/CD. Built a GenAI & RAG application with LangChain, LlamaIndex, Azure OpenAI, AWS Bedrock, and ChromaDB for semantic search and conversational analytics. Designed agentic AI workflows for technology lifecycle automation using multi-agent orchestration, Kubernetes, Docker, and CI/CD integrations. Led a model-driven MCP framework in Python and PySpark standardizing code-quality indicators across 200+ repos. Built Datadog observability tooling over 8–10 TB of logs, cutting triage time from 48 hours to 1 hour (98%). Led DevSecOps modernization with Terraform/OpenTofu, AWS EKS, and SageMaker-based AI cost forecasting.",
+        businessValue: "98% reduction in triage time",
+    },
+    {
+        id: 2,
         role: "Sr. Software Engineer – Data & AI",
         company: "Nike, Sustainability Foundation Analytics",
         period: "Aug 2023 – Aug 2024",
@@ -38,7 +46,7 @@ export const experience = [
         businessValue: "$1.5M+ saved through automation",
     },
     {
-        id: 2,
+        id: 3,
         role: "Software Engineer III – Data Engineering & ML",
         company: "Apple, Ad-Platforms",
         period: "Apr 2022 – June 2023",
@@ -46,7 +54,7 @@ export const experience = [
         businessValue: "$1.8M+ in operational efficiency",
     },
     {
-        id: 3,
+        id: 4,
         role: "Senior Software Engineer - ML",
         company: "Vanguard, Advice Engagement Labs",
         period: "Dec 2021 – Apr 2022",
@@ -54,7 +62,7 @@ export const experience = [
         businessValue: "$600K+ revenue impact",
     },
     {
-        id: 4,
+        id: 5,
         role: "Senior Software Engineer - Data & AI",
         company: "Capital One, Fraud & Risk Mitigation",
         period: "Sep 2019 – Dec 2021",
@@ -62,7 +70,7 @@ export const experience = [
         businessValue: "$800K+ in fraud prevention",
     },
     {
-        id: 5,
+        id: 6,
         role: "Data & AI Research",
         company: "University of North Texas",
         period: "Aug 2017 – May 2019",
@@ -70,7 +78,7 @@ export const experience = [
         businessValue: "Research contribution",
     },
     {
-        id: 6,
+        id: 7,
         role: "Software Engineer – Data & AI",
         company: "Invesco, Budget & Forecasting",
         period: "Oct 2015 – July 2017",
